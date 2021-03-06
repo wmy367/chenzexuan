@@ -2,7 +2,7 @@
     <div class="bg-lv" >
         <div class="ct-lv" >
             <div class="ct-cc">
-                <van-icon name="like" color="#F56C6C" size="100" @click="open1" />
+                <van-icon name="like" color="rgb(209, 32, 156)" size="100" @click="open1" />
             <!-- <van-icon name="like" size="100"/> -->
             </div>
         </div>
@@ -75,7 +75,8 @@ export default {
 
 .ct-lv {
     /* border: 0.06rem solid #409EFF; */
-    border: 0.1rem solid #E6A23C;
+    /* border: 0.1rem solid #E6A23C; */
+    border: 0.4rem solid rgb(209, 32, 156);
     border-radius: 2em;
     /* background-color: rgb(52, 102, 114); */
     widows: 100%;
